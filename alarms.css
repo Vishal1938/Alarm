@@ -1,0 +1,83 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#alarm-clock {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 86, 154);
+    border-radius: 10%;
+}
+
+#container {
+    margin: auto;
+}
+
+#clock{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.delete-button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.display-items{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(123, 110, 174);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+#hours, #minutes, #seconds,#ampm{
+    padding: 5px;
+    margin: 2px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+#ampm{
+    padding: 5px;
+    margin: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(123, 110, 174);
+    color: white;
+}
+
+#container{
+    
+}
